@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="hintTextAppearance">@style/HintTextStyle</item>
+    </style>
+
+    <style name="HintTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint" type="color">@color/custom_hint_color</item>
+    </style>
+</resources>

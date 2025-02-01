@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        app:cardBackgroundColor="@color/green" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Login Page"
+            android:textColor="@color/white"
+            android:textSize="50dp">
+
+        </TextView>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter username"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="25dp" >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter Password"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textSize="25sp">
+
+    </Button>
+
+
+</LinearLayout>

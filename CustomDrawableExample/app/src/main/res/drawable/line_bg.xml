@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="line">
+            <solid android:color="@color/blue"/>
+            <stroke android:width="5dp" />
+        </shape>
+    </item>
+    <item>
+        <rotate android:fromDegrees="15">
+        <shape
+            android:shape="line">
+            <solid android:color="@color/blue"/>
+            <stroke android:width="5dp" />
+        </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="30">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="45">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="60">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="75">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="90">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="105">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="120">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="135">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="150">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="165">
+            <shape
+                android:shape="line">
+                <solid android:color="@color/blue"/>
+                <stroke android:width="5dp" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
